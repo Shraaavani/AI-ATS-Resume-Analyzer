@@ -288,7 +288,6 @@ The API key is securely stored in backend environment variables and is never exp
 GitHub:  
 https://github.com/Shraaavani
 
----
 
 LinkedIn: 
 https://www.linkedin.com/in/shravani-kamble-9b9345346/
