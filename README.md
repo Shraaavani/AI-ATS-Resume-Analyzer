@@ -53,6 +53,10 @@ https://ai-ats-resume-analyzer-1296.onrender.com/
 
 ![Home Page](screenshots/home_page.png)
 
+## JOB DESCRIPTION
+
+![Job Description](screenshots/description.png)
+
 ## ATS Analysis Result
 
 ![Analysis Result](screenshots/analysis_result.png)
