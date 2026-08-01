@@ -285,12 +285,9 @@ The API key is securely stored in backend environment variables and is never exp
 
 **AI/ML Engineer | Python Developer | Full Stack Developer**
 
-GitHub:  
-https://github.com/Shraaavani
+- LinkedIn: https://www.linkedin.com/in/shravani-kamble-9b9345346/
+- GitHub: https://github.com/Shraaavani
 
-
-LinkedIn: 
-https://www.linkedin.com/in/shravani-kamble-9b9345346/
 
 ---
 
