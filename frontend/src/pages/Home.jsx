@@ -11,6 +11,7 @@ function Home() {
   const [jobDescription, setJobDescription] = useState("");
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState(null);
+  const [message, setMessage] = useState("");
 
 
   const analyzeResume = async () => {
@@ -44,7 +45,11 @@ function Home() {
 
       setResult(response.data);
 
-      alert("Resume analyzed successfully!");
+      setMessage("Resume analyzed successfully!");
+
+      setTimeout(() => {
+        setMessage("");
+      }, 3000);
 
     } catch (error) {
 
@@ -115,6 +120,14 @@ function Home() {
           loading={loading}
         />
 
+        {message && (
+          <div className="mt-5 flex justify-center">
+            <div className="bg-green-600 text-white px-6 py-3 rounded-lg shadow-lg flex items-center gap-2 animate-bounce">
+              <span className="text-xl">✅</span>
+              {message}
+            </div>
+          </div>
+        )}
 
         <ResultCard 
           result={result}
